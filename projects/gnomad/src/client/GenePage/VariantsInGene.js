@@ -406,6 +406,10 @@ query VariantsInGene($geneId: String!, $datasetId: DatasetId!, $referenceGenome:
           ac_hom
         }
       }
+      lof_curation {
+        verdict
+        flags
+      }
     }
   }
 }`

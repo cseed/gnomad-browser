@@ -294,6 +294,10 @@ query VariantInRegion($chrom: String!, $start: Int!, $stop: Int!, $datasetId: Da
           ac_hom
         }
       }
+      lof_curation {
+        verdict
+        flags
+      }
     }
   }
 }`
